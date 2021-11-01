@@ -1,5 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Fira Code;
+    background-color: rgb(200, 200, 200);
 }
 
+.teste{
+  margin: 20px;
+}
