@@ -20,16 +20,18 @@
     background: #FF0000;
 }
 
+/* Seletores de Reset */
+
 html {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Share Tech, arial, sans-serif;
     color: var(--dark);
     overflow: scroll;
     overflow-x: hidden;
 }
 
 body {
-    background: var(--dark));
+    background: var(--dark);
     margin: 0;
     line-height: 1.4;
 }
@@ -38,9 +40,15 @@ img {
     max-width: 100%;
 }
 
-.btn {
-    background: var(--dark);
+p, h2 {
     color: var(--light);
+}
+
+/* Seletores de Classe */
+
+.btn {
+    background: var(--light);
+    color: var(--dark);
     padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0;
@@ -53,7 +61,7 @@ img {
 
 .wrapper {
     display: grid;
-    grid-gap: 00px;
+    grid-gap: 0px;
 }
 
 /* Navigation */
@@ -64,10 +72,10 @@ background-color: var(--dark);
 
 .main-nav ul {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0px;
     padding: 0;
     list-style: none;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .main-nav a {
@@ -75,12 +83,19 @@ background-color: var(--dark);
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--light);
 }
 
 .main-nav a:hover {
-    background-color: var(--dark);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(253, 129, 56);
+    text-shadow:  0 0 10px rgb(255, 102, 0);
+    transition: 0.5s;
 }
 
 /* Top Container */
@@ -170,7 +185,10 @@ background-color: var(--dark);
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(2, 1fr);
-    padding: 3rem;
+}
+
+.info-text {
+    margin: 1rem 2rem auto 2rem
 }
 
 /* Portfolio */
@@ -214,6 +232,11 @@ footer {
     .showcase p {
         font-size: 0.9rem;
     }
+
+    .main-nav a {
+        padding: 0.5rem;
+    }
+
     .main-nav ul {
         grid-template-columns: 1fr;
     }
@@ -225,6 +248,7 @@ footer {
         text-align: center;
         margin: auto;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
