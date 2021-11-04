@@ -67,7 +67,7 @@ p, h2 {
 /* Navigation */
 
 .main-nav {
-background-color: var(--dark);
+    background-color: var(--dark);
 }
 
 .main-nav ul {
@@ -94,7 +94,7 @@ background-color: var(--dark);
     text-transform: uppercase;
     font-size: 1rem;
     color: rgb(253, 129, 56);
-    text-shadow:  0 0 10px rgb(255, 102, 0);
+    text-shadow: 0 0 10px rgb(255, 102, 0);
     transition: 0.5s;
 }
 
@@ -174,9 +174,10 @@ background-color: var(--dark);
     box-shadow: var(--shadow);
 }
 
-#icon  {
+#icon {
     color: #ddd;
 }
+
 /* Info */
 
 .info {
@@ -232,11 +233,9 @@ footer {
     .showcase p {
         font-size: 0.9rem;
     }
-
     .main-nav a {
         padding: 0.5rem;
     }
-
     .main-nav ul {
         grid-template-columns: 1fr;
     }
