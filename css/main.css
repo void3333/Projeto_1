@@ -102,7 +102,7 @@ p, h2 {
     grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
     justify-content: center;
     min-height: 626px;
-    background: url(/img/showcase.jpg);
+    background: url(../img/showcase.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
