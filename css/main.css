@@ -101,8 +101,8 @@ p, h2 {
     box-shadow: var(--shadow);
     grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
     justify-content: center;
-    min-height: 400px;
-    background: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+    min-height: 626px;
+    background: url(/img/showcase.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,6 +182,7 @@ p, h2 {
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(2, 1fr);
+    min-height: 400px;
 }
 
 .info-text {
