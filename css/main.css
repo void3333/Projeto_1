@@ -1,5 +1,4 @@
 /* CSS Variables */
-
 :root {
     --primary: #ddd;
     --dark: #333;
@@ -21,7 +20,6 @@
 }
 
 /* Seletores de Reset */
-
 html {
     box-sizing: border-box;
     font-family: Share Tech, arial, sans-serif;
@@ -43,7 +41,6 @@ p, h2 {
 }
 
 /* Seletores de Classe */
-
 .btn {
     background: var(--light);
     color: var(--dark);
@@ -56,7 +53,6 @@ p, h2 {
 }
 
 /* Navigation */
-
 .main-nav ul {
     display: grid;
     list-style: none;
@@ -84,7 +80,6 @@ p, h2 {
 }
 
 /* Top Container */
-
 .top-container {
     display: grid;
     box-shadow: var(--shadow);
@@ -98,7 +93,6 @@ p, h2 {
 }
 
 /* Showcase */
-
 .showcase {
     grid-area: showcase;
     padding: 3rem;
@@ -119,7 +113,6 @@ p, h2 {
 }
 
 /* Top Box */
-
 .top-box {
     background: var(--dark);
     display: grid;
@@ -142,7 +135,6 @@ p, h2 {
 }
 
 /* Boxes */
-
 .boxes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -161,7 +153,6 @@ p, h2 {
 }
 
 /* Info */
-
 .info {
     background: var(--dark);
     box-shadow: var(--shadow);
@@ -179,7 +170,6 @@ p, h2 {
 }
 
 /* Portfolio */
-
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -192,7 +182,6 @@ p, h2 {
 }
 
 /* Footer */
-
 footer {
     background: var(--dark);
     color: var(--light);
@@ -200,7 +189,6 @@ footer {
 }
 
 /* Media Queries */
-
 @media (max-width: 700px) {
     .top-container {
         grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
